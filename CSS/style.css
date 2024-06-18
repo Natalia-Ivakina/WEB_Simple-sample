@@ -1,0 +1,121 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 5%;
+  background-color: #d4e2d4;
+}
+
+#wrapper {
+  width: 80%;
+  background-color: #faf3f0;
+  padding: 2% 3%;
+  margin: auto;
+}
+
+#logo {
+  width: 50%;
+}
+
+p {
+  text-align: center;
+}
+
+#photo {
+  width: 45%;
+  margin: 3%;
+}
+
+aside {
+  width: 40%;
+  float: left;
+  text-align: center;
+}
+
+.button {
+  text-align: left;
+}
+
+footer {
+  margin-top: 2%;
+  border-top: 1px solid #ffcacc;
+  text-align: center;
+  font-size: smaller;
+}
+
+h4 {
+  clear: both;
+  text-align: center;
+  color: #302f2f;
+}
+
+.gallery {
+  width: auto;
+  text-align: center;
+}
+
+#event {
+  padding-top: 2%;
+  border-top: 0.1em solid #ffcacc;
+}
+
+form {
+  width: 25%;
+  margin: 0% auto;
+  text-align: center;
+  color: rgb(33, 34, 34);
+}
+
+fieldset {
+  border-color: #ffcacc;
+}
+
+.field {
+  clear: both;
+  text-align: right;
+}
+
+label {
+  float: left;
+}
+
+textarea {
+  margin-top: 5%;
+  border-color: #ffcacc;
+}
+
+input[type="submit"] {
+  padding: 1%;
+  border: 2px solid #3d9970;
+  background-color: #3d9970;
+  margin: 1%;
+  border-radius: 50%;
+}
+
+input[type="submit"]:hover {
+  background-color: #ffcacc;
+}
+
+.history {
+  text-align: center;
+  border-top: 0.1em solid #ffcacc;
+  margin-top: 5%;
+}
+
+@media only screen and (max-width: 50em) {
+  aside {
+    width: 100%;
+    text-align: center;
+  }
+
+  #photo {
+    width: 95%;
+    margin: auto;
+    padding-top: 3%;
+  }
+
+  form {
+    width: 100%;
+    margin: 0% auto;
+    text-align: center;
+    color: rgb(33, 34, 34);
+  }
+}
